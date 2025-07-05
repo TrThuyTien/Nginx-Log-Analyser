@@ -23,6 +23,6 @@ You are required to create a shell script that reads the log file and provides t
 - Top 5 user agents
 
 ## References
-[1] [Bash Tutorial] (https://www.w3schools.com/bash/index.php)
+[1] [Bash Tutorial](https://www.w3schools.com/bash/index.php)
 
 [2] [Looping through the content of a file in Bash](https://stackoverflow.com/questions/1521462/looping-through-the-content-of-a-file-in-bash)
