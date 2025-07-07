@@ -1,21 +1,27 @@
 #!/bin/bash
 
 # Filter IP, request paths, response status codes, user agents
-awk -F '"' '{ split($1, a, " "); split($2, b, " "); split($3, c, " "); print a[1]"-,-"b[2]"-,-"c[1]"-,-"$(NF-1)}' nginx-access.log.txt > filter_request.txt
+awk -F '"' '{ 
+    split($1, a, " "); 
+    split($2, b, " "); 
+    split($3, c, " "); 
+    print a[1]"-,-"b[2]"-,-"c[1]"-,-"$(NF-1)
+}' nginx-access.log.txt > filter_request.txt
 
+# Function to count and display the top 5 most frequent values for a given field
 function most_requests() {
-    local field_index=$1
-    local field_name=$2
+    local field_index=$1 # Field position
+    local field_name=$2  # Field name
     local output_file="${field_name}.txt"
 
-    # Get all request and sort of the field
+    # Get all values for the field sort them for counting
     local all_requests=$(awk -F'-,-' -v idx="$field_index" '{ print $idx }' filter_request.txt | sort)
     
-    # Inital variable
+    # Initialize counting variable
     local pre_request=""
     local count_request=0
 
-    # Create new file or clear content
+    # Create or clear output file
     > "$output_file" 
 
     # Count requests
