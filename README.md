@@ -22,6 +22,9 @@ You are required to create a shell script that reads the log file and provides t
 - Top 5 response status codes
 - Top 5 user agents
 
+## Solution
+![Result of Nginx Log Analyser](https://private-user-images.githubusercontent.com/148189997/463626142-c4bff0bb-604c-4440-8abb-e35e25a263c5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTE5NjkwNjQsIm5iZiI6MTc1MTk2ODc2NCwicGF0aCI6Ii8xNDgxODk5OTcvNDYzNjI2MTQyLWM0YmZmMGJiLTYwNGMtNDQ0MC04YWJiLWUzNWUyNWEyNjNjNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwOFQwOTU5MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYjNhY2VlMjVhZGE2ZTUyM2VlZTE0OTg4ZDA3YWY1MWYwMDlkM2IxMzMyN2UwMTc2YmEyYjdiOTlhNThjNTI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4CY0M2TIMaNzkJ-URQ2U5ZBYPvx0ZOdxp3DTzkC9Vag)
+
 ## References
 [1] [Bash Tutorial](https://www.w3schools.com/bash/index.php)
 
